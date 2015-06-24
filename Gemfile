@@ -102,7 +102,7 @@ end
 gem 'therubyracer', :platform => :ruby  # C Ruby (MRI) or Rubinius, but NOT Windows
 gem 'sass-rails'
 gem 'coffee-rails'
-gem 'uglifier'
+gem 'uglifier', '~> 2.7'
 # We can't upgrade because not compatible to jquery >= 1.9.
 # To do that, we need fix the rails.js
 gem 'jquery-rails', '~> 2.1.4'
